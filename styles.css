@@ -1,0 +1,308 @@
+.mainBody {
+    padding: 15px;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.mainConatainer {
+    padding: 0px;
+}
+
+.searchConatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    margin: -5px 0px 0px;
+}
+
+.searchBox {
+    width: 597px;
+    height: 53px;
+    color: #262626;
+    background: #262626;
+    border-radius: 15px;
+
+}
+
+.btnConataine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 22px;
+    width: 33%;
+}
+
+.btnLogin {
+    color: #FFFFFF;
+    width: 134px;
+    height: 53px;
+    background: #262626;
+    border-radius: 15px;
+
+}
+
+.btnExplore {
+    color: #FFFFFF;
+    width: 131px;
+    height: 53px;
+    background: #262626;
+    border-radius: 15px;
+}
+
+.btnRent {
+    color: #FFFFFF;
+    width: 112px;
+    height: 53px;
+    background: #262626;
+    border-radius: 15px;
+}
+
+.aboutContainer {
+    /* width: 1323px; */
+    height: 588px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 30px 0px;
+    padding: 15px;
+}
+
+.headingAbout {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 10px
+}
+
+.conetntConatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.leftmenu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rigthmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
+    justify-content: space-between;
+
+}
+
+.contentAbout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 29px 0px;
+}
+
+.containerImage {
+    width: 105px;
+    height: 105px;
+    background: #FECB03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    height: 47px;
+    width: 52.9999885559082px;
+    border-radius: 0px;
+    margin: 21%;
+
+
+}
+
+.paraimage {
+    font-size: 32px;
+    color: #C4C4C4;
+    margin: 26px;
+}
+
+.clockCtn {}
+
+.clockContent {
+    width: 279px;
+    height: 278px;
+    background: #FECB03;
+    border-radius: 1000px;
+}
+
+.imgClock {
+    margin: -1%;
+    border-radius: 0px;
+
+}
+
+.knowContainer {
+    width: 260px;
+    height: 107px;
+    background: #FECB03;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.knowpara {
+    color: #262626;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 14%;
+}
+
+.categorieContainer {
+    margin: 68px 20px;
+}
+
+.Categoriescontent {}
+
+.categoriParam {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.mainCardCtn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardContainer {
+    width: 346px;
+    height: 391px;
+    background: #1F1F1F;
+    border: 3px solid #262626;
+    border-radius: 20px;
+    margin-bottom: 62px;
+}
+
+.cardContent {
+    margin: 36px 36px 20px 27px;
+}
+
+.cardPara {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    line-height: 22px;
+
+
+}
+
+.cardHead {
+    font-weight: 600;
+    font-size: 30px;
+    color: #C4C4C4;
+
+}
+
+.btnKnow {
+    width: 169.44px;
+    height: 58px;
+    background: #FECB03;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+    float: right;
+}
+
+.btnPara {
+    width: 98.21px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #262626;
+    margin-left: 26%;
+
+}
+
+.footerContainer {
+    height: 283px;
+    background: #262626;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 56px 44px;
+
+}
+
+.section1st {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.firstHeadingParam {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.firstdis {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section2nd {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.section3rd {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+
+.Sechead {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.listFooter {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none
+}
+
+.listpara {
+    margin: 0px;
+    text-decoration: none
+}
+
+.anchor {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none
+}
